@@ -35,9 +35,11 @@ nav_order: 5
 
 [Kelley Chu](https://github.com/kelleych) (Intern, DataLab, April 2021 - August 2021)
 
-[Sebastian Lopez](https://github.com/erklopez) (Student Employee, DataLab, Starting July 2021)
+[Sebastian Lopez](https://github.com/erklopez) (Student Employee, DataLab, July 2021 - August 2024)
 
-[Alison Wong](https://github.com/alisonsnwong) (Student Employee, DataLab, Starting July 2022)
+[Alison Wong](https://github.com/alisonsnwong) (Student Employee, DataLab, July 2022 - August 2024)
+
+[Sonal Agarwal](https://github.com/s0nalagarwal) (Student Employee, DataLab, starting January 2025)
 
 
 **Consultants:**
