@@ -3,7 +3,7 @@
 #Load Libraries
 library(geojson)
 library(geojsonio)
-library(rgdal)
+#library(rgdal)
 library(zip)
 
 #Set working directory
