@@ -25,10 +25,12 @@ setwd("~/data_lab_/ava")
 
 #URL
 url_date<- "https://www.ecfr.gov/api/versioner/v1/versions.json" #This API lets you know when each title was last updated and returns a json file
+url_date<- "https://www.ecfr.gov/api/versioner/v1/titles.json" #This API lets you know when each title was last updated and returns a json file
+
 update.frame<-fromJSON(url_date)%>%as.data.frame() #This line returns the json file turned into a data.frame that is readable
-title27_v1<- which(update.frame$title_versions.title==27) #Returns the row in which the update.frame the title 27 is, at the moment it is the row 27,
+title27_v1<- which(update.frame$titles.number==27) #Returns the row in which the update.frame the title 27 is, at the moment it is the row 27,
 # but in the future if any changes to the row are made this line will prevent it from returning the incorrect data.
-last_update<- update.frame$title_versions.last_updated[title27_v1] #last_update corresponds to the last date in which the title 27 was updated
+last_update<- update.frame$titles.latest_amended_on[title27_v1] #last_update corresponds to the last date in which the title 27 was updated
 
 # JSON from Latest Date ---------------------------------------------------
 
